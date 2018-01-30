@@ -1,0 +1,98 @@
+body {
+    text-align: center;
+}
+li {
+    float: center;
+}
+ul {
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    display: inline;
+}
+h1 {
+    color: plum;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'New Rocker', cursive;
+    text-align: center;
+}
+h1 {
+    border: dotted;
+}
+p {
+    text-align: center;
+    font-family: 'Black Ops One';
+    color: darkred;
+}
+/*Pseudo-element */
+h1::before {
+    content: "*";
+}
+h1::after{
+    content: "~";
+}
+
+p {
+    font-family: 'Black Ops One';
+    color: darkred
+}
+p {
+    border: solid;
+    
+}
+body {
+    font-family: 'Brawler', serif;
+    background-color: lavender;
+}
+.bret {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+.bret:hover{
+    transform: rotate(90deg)
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    display: inline;
+    text-align: center;
+    border: solid 2px plum;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s all;
+    font-family: 'Black Ops One';
+    color: darkred;
+}
+.button:hover{
+    background-color: antiquewhite;
+    text-align: center;
+}
+.button {
+    background-color: grey
+}
+nav {
+    background-color: darkgrey;
+}
+
+ul{
+    text-align: center;
+    display: inline;
+    font-family: 'Black Ops One';
+    color: darkred
+}
+.Bret1:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
